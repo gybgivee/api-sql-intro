@@ -1,0 +1,1 @@
+SELECT COUNT(*) , name FROM Directors LEFT JOIN Films ON  Directors.ID = Films.FK_DirectorID GROUP BY name;
